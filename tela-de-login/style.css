@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background-image: linear-gradient(55deg, #7040ffd1 0%, #000000d1 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+}
+
+.login{
+    background-color: #10363e80;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 15px;
+}
+
+a { color: inherit;
+    color: dodgerblue;
+}
+p{
+    text-align: center;
+}
+
+.cadastro{
+     color: #fff;
+     font-size: 15px;
+     position: absolute;
+     top: 70%;
+     left: 28%;
+     text-align: center;
+     
+}
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+}
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.scroll{
+    position:fixed;
+}
